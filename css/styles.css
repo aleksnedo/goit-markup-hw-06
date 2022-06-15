@@ -475,7 +475,6 @@ body {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--sicial-med-clr-bcg);
-  outline: none;
 }
 
 .social-media-link:hover .social-media-icon,
@@ -530,7 +529,6 @@ body {
 .clients-link:focus {
   border: 1px solid var(--clients-clr-hover);
   color: var(--clients-clr-hover);
-  outline: none;
 }
 
 /* -----FOOTER----- */
@@ -661,6 +659,8 @@ body {
   background-color: var(--sicial-med-clr-bcg);
 }
 
+/* -----MODAL----- */
+
 .backdrop {
   width: 100%;
   height: 100%;
@@ -757,7 +757,6 @@ body {
   background-color: var(--color-accent);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  outline: none;
 }
 
 .work-filters-btn:active {
@@ -793,7 +792,6 @@ body {
 .work-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  outline: none;
 }
 
 .work-link:hover .work-description,
